@@ -1,0 +1,46 @@
+# Backend (Spring Boot)
+SpringbootMysqlCrudApplication/target/
+SpringbootMysqlCrudApplication/.mvn/
+SpringbootMysqlCrudApplication/.settings/
+SpringbootMysqlCrudApplication/.classpath
+SpringbootMysqlCrudApplication/.project
+
+# Frontend (React)
+productsweb/node_modules/
+productsweb/build/
+productsweb/.env.local
+productsweb/.env.development.local
+productsweb/.env.test.local
+productsweb/.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+/.metadata
+/.recommenders
+/*.snap
+/*.log
+*.log
+/*.diff
+/*.patch
+/bin/
+/tmp/
+/.settings/
+/.classpath
+/.project
+
+# IntelliJ IDEA
+/.idea
+*.iml
+*.ipr
+*.iws
+
+# Spring Tool Suite (STS)
+.springBeans
