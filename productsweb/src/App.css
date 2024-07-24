@@ -1,0 +1,37 @@
+.header-bar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.header-bar a:hover {
+  text-decoration: underline;
+}
+
+.header-bar .header-button {
+  background-color: #0056b3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.header-bar .header-button:hover {
+  background-color: #004494;
+}

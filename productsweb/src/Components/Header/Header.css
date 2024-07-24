@@ -1,0 +1,32 @@
+
+.header-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    flex: 1;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-left a, .nav-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    text-decoration: underline;
+}

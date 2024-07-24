@@ -1,0 +1,133 @@
+.table-container {
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        display: block;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    td {
+        display: block;
+        text-align: right;
+        font-size: 14px;
+        padding: 10px;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+.product-list-container {
+    margin: 20px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.product-table button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.product-table button:hover {
+    background-color: #0056b3;
+}
+
+.product-table button.delete {
+    background-color: #dc3545;
+}
+
+.product-table button.delete:hover {
+    background-color: #c82333;
+}
+
+.no-products {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 60vh;            /* Adjust height as needed */
+    font-size: 1.2rem;       /* Adjust font size as needed */
+    color: #333;             /* Adjust text color as needed */
+}
+.loading-message {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 60vh;            /* Adjust height as needed */
+    font-size: 1.2rem;       /* Adjust font size as needed */
+    color: #333; 
+}
+
