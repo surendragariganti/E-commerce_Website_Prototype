@@ -1,6 +1,6 @@
-# YK Innosoft Spring Boot and React Application
+#E-commerce Website Prototype Spring Boot and React Application
 
-This project is an YK Innosoft application built with a Spring Boot backend and a React frontend. It allows users to add, view, update, and delete products.
+This project is an E-commerce Website Prototype application built with a Spring Boot backend and a React frontend. It allows users to add, view, update, and delete products.
 
 ## Prerequisites
 
@@ -15,8 +15,8 @@ This project is an YK Innosoft application built with a Spring Boot backend and 
 1. **Clone the repository:**
     Open Command Prompt and run:
     ```cmd
-    git clone https://github.com/surendragariganti/ykinnosoft-sprinboot-react.git
-    cd ykinnosoft-sprinboot-react\SpringbootMysqlCrudApplication
+    git clone https://github.com/surendragariganti/E-commerce_Website_Prototype
+    cd E-commerce_Website_Prototype\SpringbootMysqlCrudApplication
     ```
 
 2. **Configure the database:**
